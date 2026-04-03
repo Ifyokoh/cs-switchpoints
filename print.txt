@@ -1,0 +1,73 @@
+Output from prep_data.py
+summary of counts and data issues for one dataset
+
+=== hi_en ===
+  Sentences      : 1,448
+  Tokens (raw)   : 20,203
+  Tokens (kept)  : 16,632
+  Missing HEAD   : 0 sentences
+  Missing lang   : 0 tokens
+  Monolingual sentences: none
+ => written to data/clean/hi_en_tokens.tsv
+
+=== te_en ===
+  Sentences      : 97
+  Tokens (raw)   : 456
+  Tokens (kept)  : 371
+  Missing HEAD   : 0 sentences
+  Missing lang   : 2 tokens
+  Monolingual sentences by language:
+    te    : 1  (1.0 %)
+ => written to data/clean/te_en_tokens.tsv
+
+=== tr_en ===
+  Sentences      : 51
+  Tokens (raw)   : 393
+  Tokens (kept)  : 331
+  Missing HEAD   : 0 sentences
+  Missing lang   : 62 tokens
+  Monolingual sentences by language:
+    tr    : 10  (19.6 %)
+ => written to data/clean/tr_en_tokens.tsv
+
+
+
+
+output from analyze_switchpoints.py
+switch-point summary
+
+=== hi_en ===
+  Total adjacent pairs  : 15,184
+  Lang-unknown pairs    :   0  (skipped in switch stats)
+  Same-language pairs   : 11,696  (77.0 %)
+    => en               : 5,819  (49.8 % of same-lang)
+    => hi               : 5,877  (50.2 % of same-lang)
+  Switch pairs          : 3,488  (23.0 %)
+    => within constituent : 1,948  (55.8 % of switches)
+    => at boundary        : 1,540  (44.2 % of switches)
+    => relation unknown   :   0  (0.0 % of switches)
+  => written to data/switchpairs/hi_en_pairs.tsv
+
+=== te_en ===
+  Total adjacent pairs  : 274
+  Lang-unknown pairs    :   4  (skipped in switch stats)
+  Same-language pairs   :  98  (36.3 %)
+    => en               :  18  (18.4 % of same-lang)
+    => te               :  80  (81.6 % of same-lang)
+  Switch pairs          : 172  (63.7 %)
+    => within constituent : 166  (96.5 % of switches)
+    => at boundary        :   6  (3.5 % of switches)
+    => relation unknown   :   0  (0.0 % of switches)
+  => written to data/switchpairs/te_en_pairs.tsv
+
+=== tr_en ===
+  Total adjacent pairs  : 280
+  Lang-unknown pairs    :   0  (skipped in switch stats)
+  Same-language pairs   : 212  (75.7 %)
+    => en               :  70  (33.0 % of same-lang)
+    => tr               : 142  (67.0 % of same-lang)
+  Switch pairs          :  68  (24.3 %)
+    => within constituent :  47  (69.1 % of switches)
+    => at boundary        :  21  (30.9 % of switches)
+    => relation unknown   :   0  (0.0 % of switches)
+  => written to data/switchpairs/tr_en_pairs.tsv
