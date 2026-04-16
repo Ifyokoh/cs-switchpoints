@@ -170,6 +170,13 @@ def check_and_report(prefix, sentences):
         if t.lang is None
     )
 
+    # Token count per language in the filtered set
+    tokens_by_lang: dict[str, int] = {}
+    for sentence in sentences:
+        for token in remove_punct(sentence):
+            if token.lang is not None:
+                tokens_by_lang[token.lang] = tokens_by_lang.get(token.lang, 0) + 1
+
     # Monolingual sentences: only one language present (after filtering)
     # Track which language it is
     monolingual_counts = {}
@@ -184,6 +191,9 @@ def check_and_report(prefix, sentences):
     print(f"  Sentences      : {n_sentences:,}")
     print(f"  Tokens (raw)   : {n_tokens_raw:,}")
     print(f"  Tokens (kept)  : {n_tokens_kept:,}")
+    for lang, count in sorted(tokens_by_lang.items()):
+        pct = 100.0 * count / n_tokens_kept if n_tokens_kept else 0.0
+        print(f"    => {lang:<6}    : {count:,}  ({pct:.1f} %)")
     print(f"  Missing HEAD   : {sentences_missing_head:,} sentences")
     print(f"  Missing lang   : {tokens_missing_lang:,} tokens")
 

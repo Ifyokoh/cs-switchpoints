@@ -192,7 +192,7 @@ def write_tsv(pairs, output_path):
 
     with open(output_path, "w", encoding="utf-8") as out:
         out.write(
-            "sent_id\ttok_i_id\ttok_j_id\tupos_i\tupos_j\t"
+            "sent_id\ttok_i_id\ttok_j_id\tupos_i\tupos_j\tdeprel_i\tdeprel_j\t"
             "lang_i\tlang_j\tswitch\trelation\n"
         )
         for pair in pairs:
@@ -210,6 +210,7 @@ def write_tsv(pairs, output_path):
                 f"{pair.sent_id}\t"
                 f"{pair.tok_i.token_id}\t{pair.tok_j.token_id}\t"
                 f"{pair.tok_i.upos}\t{pair.tok_j.upos}\t"
+                f"{pair.tok_i.deprel}\t{pair.tok_j.deprel}\t"
                 f"{lang_i}\t{lang_j}\t"
                 f"{switch_str}\t{pair.relation}\n"
             )

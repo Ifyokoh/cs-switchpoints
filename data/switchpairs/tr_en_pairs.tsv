@@ -1,281 +1,281 @@
-sent_id	tok_i_id	tok_j_id	upos_i	upos_j	lang_i	lang_j	switch	relation
-1	1	2	NOUN	NOUN	tr	tr	false	within
-1	2	3	NOUN	NOUN	tr	en	true	within
-1	3	4	NOUN	VERB	en	tr	true	within
-1	4	5	VERB	ADJ	tr	tr	false	within
-1	5	6	ADJ	AUX	tr	tr	false	within
-2	1	2	PRON	VERB	tr	tr	false	within
-2	2	3	VERB	NOUN	tr	tr	false	within
-2	3	4	NOUN	SCONJ	tr	tr	false	boundary
-2	4	5	SCONJ	ADV	tr	en	true	within
-2	5	6	ADV	DET	en	en	false	boundary
-2	6	7	DET	NOUN	en	tr	true	within
-2	7	8	NOUN	NOUN	tr	tr	false	within
-2	8	9	NOUN	NOUN	tr	tr	false	within
-2	9	10	NOUN	VERB	tr	tr	false	within
-2	10	11	VERB	DET	tr	tr	false	within
-2	11	12	DET	NOUN	tr	tr	false	within
-3	1	2	PRON	ADP	tr	tr	false	within
-3	2	3	ADP	DET	tr	tr	false	boundary
-3	3	4	DET	NOUN	tr	tr	false	within
-3	4	5	NOUN	VERB	tr	tr	false	within
-4	1	2	ADV	VERB	tr	tr	false	within
-4	2	3	VERB	PRON	tr	tr	false	within
-5	1	2	ADV	VERB	tr	tr	false	within
-5	2	3	VERB	NOUN	tr	tr	false	within
-6	1	2	PRON	CCONJ	tr	tr	false	within
-6	2	3	CCONJ	ADP	tr	en	true	boundary
-6	3	4	ADP	DET	en	en	false	within
-6	4	5	DET	ADJ	en	en	false	within
-6	5	6	ADJ	NOUN	en	en	false	within
-6	6	7	NOUN	VERB	en	tr	true	within
-6	7	8	VERB	CCONJ	tr	tr	false	within
-7	1	2	NOUN	VERB	tr	tr	false	within
-7	2	3	VERB	DET	tr	tr	false	boundary
-7	3	4	DET	PROPN	tr	tr	false	within
-7	4	5	PROPN	VERB	tr	tr	false	within
-7	5	7	VERB	VERB	tr	tr	false	within
-8	1	2	DET	NOUN	tr	tr	false	within
-8	2	3	NOUN	VERB	tr	tr	false	within
-8	3	4	VERB	PRON	tr	tr	false	boundary
-8	4	5	PRON	PRON	tr	en	true	within
-8	5	6	PRON	AUX	en	en	false	within
-8	6	7	AUX	VERB	en	en	false	within
-8	7	8	VERB	PRON	en	en	false	within
-9	1	2	PRON	CCONJ	tr	tr	false	within
-9	2	3	CCONJ	NOUN	tr	tr	false	boundary
-9	3	4	NOUN	ADV	tr	en	true	within
-9	4	5	ADV	ADJ	en	en	false	within
-9	5	6	ADJ	AUX	en	tr	true	within
-9	6	7	AUX	AUX	tr	tr	false	within
-10	1	2	PROPN	PROPN	tr	tr	false	within
-10	2	3	PROPN	VERB	tr	tr	false	boundary
-10	3	4	VERB	PRON	tr	en	true	within
-10	4	5	PRON	AUX	en	en	false	within
-10	5	6	AUX	VERB	en	en	false	within
-10	6	7	VERB	CCONJ	en	tr	true	within
-11	1	2	ADV	ADJ	tr	tr	false	within
-11	2	3	ADJ	VERB	tr	tr	false	within
-11	3	4	VERB	NOUN	tr	tr	false	within
-11	4	5	NOUN	PRON	tr	tr	false	within
-11	5	6	PRON	VERB	tr	tr	false	within
-12	1	2	PRON	VERB	en	en	false	within
-12	2	3	VERB	CCONJ	en	en	false	boundary
-12	3	4	CCONJ	VERB	en	en	false	within
-12	4	5	VERB	PRON	en	en	false	within
-12	5	6	PRON	ADP	en	en	false	boundary
-12	6	7	ADP	DET	en	en	false	within
-12	7	8	DET	ADV	en	tr	true	boundary
-12	8	9	ADV	VERB	tr	tr	false	within
-12	9	10	VERB	VERB	tr	tr	false	within
-12	10	11	VERB	ADV	tr	en	true	within
-12	11	12	ADV	NOUN	en	en	false	within
-13	1	2	NOUN	NOUN	en	tr	true	within
-13	2	3	NOUN	NOUN	tr	tr	false	within
-13	3	4	NOUN	VERB	tr	tr	false	within
-14	1	2	CCONJ	ADV	tr	tr	false	boundary
-14	2	3	ADV	ADJ	tr	tr	false	within
-14	3	4	ADJ	CCONJ	tr	tr	false	within
-14	4	5	CCONJ	ADJ	tr	tr	false	within
-14	5	6	ADJ	PRON	tr	tr	false	boundary
-14	6	7	PRON	ADV	tr	en	true	boundary
-14	7	8	ADV	ADJ	en	en	false	within
-14	8	9	ADJ	CCONJ	en	en	false	boundary
-14	9	10	CCONJ	ADJ	en	en	false	within
-15	1	2	DET	NOUN	en	tr	true	within
-15	2	3	NOUN	VERB	tr	tr	false	within
-16	1	2	NOUN	VERB	tr	tr	false	within
-16	2	4	VERB	CCONJ	tr	tr	false	boundary
-16	4	5	CCONJ	ADV	tr	tr	false	within
-16	5	6	ADV	ADJ	tr	en	true	within
-17	1	2	ADJ	DET	en	tr	true	within
-17	2	3	DET	NOUN	tr	en	true	within
-17	3	4	NOUN	ADJ	en	tr	true	within
-17	4	5	ADJ	ADV	tr	tr	false	within
-18	1	3	VERB	DET	en	tr	true	boundary
-18	3	4	DET	NOUN	tr	tr	false	within
-19	1	2	DET	ADP	en	en	false	within
-19	2	3	ADP	DET	en	en	false	within
-19	3	4	DET	ADJ	en	en	false	within
-19	4	5	ADJ	NOUN	en	tr	true	boundary
-19	5	6	NOUN	NOUN	tr	tr	false	within
-19	6	7	NOUN	VERB	tr	tr	false	within
-20	1	2	VERB	ADP	en	en	false	boundary
-20	2	3	ADP	PRON	en	en	false	within
-20	3	4	PRON	DET	en	tr	true	boundary
-20	4	5	DET	NOUN	tr	tr	false	within
-21	1	3	NOUN	PRON	en	en	false	within
-21	3	4	PRON	VERB	en	en	false	within
-21	4	5	VERB	ADV	en	tr	true	boundary
-21	5	6	ADV	ADJ	tr	tr	false	within
-21	6	7	ADJ	DET	tr	tr	false	within
-21	7	8	DET	NOUN	tr	tr	false	within
-21	8	9	NOUN	VERB	tr	tr	false	within
-22	1	3	NOUN	NOUN	tr	tr	false	within
-22	3	4	NOUN	VERB	tr	tr	false	within
-22	4	6	VERB	PRON	tr	en	true	boundary
-22	6	7	PRON	VERB	en	en	false	within
-22	7	8	VERB	ADJ	en	en	false	within
-23	1	2	PRON	ADV	tr	tr	false	within
-23	2	3	ADV	ADJ	tr	en	true	within
-23	3	4	ADJ	AUX	en	tr	true	within
-23	4	5	AUX	CCONJ	tr	tr	false	within
-24	1	2	VERB	SCONJ	en	en	false	boundary
-24	2	3	SCONJ	DET	en	tr	true	boundary
-24	3	4	DET	NOUN	tr	tr	false	within
-24	4	5	NOUN	PRON	tr	tr	false	within
-24	5	6	PRON	VERB	tr	tr	false	within
-25	1	2	PRON	NOUN	tr	tr	false	boundary
-25	2	3	NOUN	NUM	tr	tr	false	boundary
-25	3	4	NUM	NOUN	tr	tr	false	within
-25	4	5	NOUN	NOUN	tr	en	true	within
-25	5	6	NOUN	VERB	en	tr	true	within
-25	6	7	VERB	VERB	tr	tr	false	within
-25	7	8	VERB	DET	tr	en	true	boundary
-25	8	9	DET	NOUN	en	en	false	within
-25	9	10	NOUN	VERB	en	en	false	within
-25	10	11	VERB	VERB	en	en	false	within
-26	1	3	VERB	VERB	tr	tr	false	within
-27	1	2	VERB	NOUN	tr	en	true	within
-27	2	3	NOUN	VERB	en	tr	true	within
-28	1	2	PRON	ADJ	en	en	false	within
-28	2	4	ADJ	ADV	en	tr	true	boundary
-28	4	5	ADV	ADV	tr	tr	false	within
-28	5	6	ADV	VERB	tr	tr	false	within
-29	1	2	ADV	ADV	en	tr	true	within
-29	2	3	ADV	VERB	tr	tr	false	within
-30	1	2	ADP	NOUN	en	en	false	within
-30	2	3	NOUN	NOUN	en	tr	true	boundary
-30	3	4	NOUN	VERB	tr	tr	false	within
-30	4	6	VERB	VERB	tr	tr	false	within
-30	6	7	VERB	AUX	tr	tr	false	within
-30	7	8	AUX	PART	tr	tr	false	within
-30	8	9	PART	PRON	tr	tr	false	boundary
-30	9	10	PRON	ADP	tr	tr	false	within
-30	10	11	ADP	NOUN	tr	tr	false	boundary
-31	1	2	NOUN	ADV	tr	tr	false	boundary
-31	2	3	ADV	ADJ	tr	tr	false	within
-31	3	4	ADJ	NOUN	tr	en	true	within
-31	4	5	NOUN	NOUN	en	tr	true	within
-31	5	6	NOUN	ADJ	tr	tr	false	within
-31	6	7	ADJ	ADJ	tr	tr	false	within
-31	7	9	ADJ	NOUN	tr	en	true	boundary
-31	9	10	NOUN	VERB	en	en	false	within
-31	10	11	VERB	NOUN	en	en	false	within
-32	1	2	NOUN	ADV	en	en	false	within
-32	2	3	ADV	VERB	en	tr	true	within
-32	3	4	VERB	SCONJ	tr	tr	false	boundary
-32	4	5	SCONJ	VERB	tr	tr	false	within
-32	5	6	VERB	VERB	tr	tr	false	within
-33	1	2	PROPN	PRON	tr	tr	false	within
-33	2	3	PRON	PRON	tr	tr	false	boundary
-33	3	4	PRON	NOUN	tr	en	true	within
-33	4	5	NOUN	VERB	en	tr	true	within
-33	5	6	VERB	SCONJ	tr	tr	false	within
-33	6	7	SCONJ	AUX	tr	tr	false	boundary
-33	7	8	AUX	VERB	tr	tr	false	within
-34	1	2	ADJ	NOUN	tr	tr	false	within
-34	2	3	NOUN	NOUN	tr	en	true	within
-34	3	4	NOUN	NOUN	en	en	false	within
-34	4	5	NOUN	VERB	en	tr	true	within
-35	1	2	NOUN	ADV	tr	en	true	within
-35	2	3	ADV	PRON	en	tr	true	within
-35	3	4	PRON	PROPN	tr	tr	false	within
-36	1	2	NOUN	ADV	tr	tr	false	boundary
-36	2	3	ADV	ADJ	tr	en	true	within
-36	3	4	ADJ	NOUN	en	tr	true	within
-36	4	5	NOUN	VERB	tr	tr	false	within
-36	5	6	VERB	VERB	tr	tr	false	within
-36	6	7	VERB	SCONJ	tr	tr	false	within
-36	7	8	SCONJ	VERB	tr	tr	false	boundary
-37	1	2	NOUN	NOUN	tr	tr	false	boundary
-37	2	3	NOUN	VERB	tr	tr	false	within
-37	3	4	VERB	VERB	tr	tr	false	within
-37	4	5	VERB	NUM	tr	tr	false	boundary
-37	5	6	NUM	NOUN	tr	tr	false	within
-37	6	7	NOUN	PROPN	tr	tr	false	within
-37	7	8	PROPN	PROPN	tr	tr	false	within
-37	8	9	PROPN	NOUN	tr	tr	false	boundary
-38	1	2	NOUN	ADJ	tr	en	true	boundary
-38	2	3	ADJ	DET	en	tr	true	within
-38	3	4	DET	NOUN	tr	tr	false	within
-38	4	5	NOUN	VERB	tr	tr	false	within
-39	1	3	ADV	CCONJ	tr	en	true	within
-39	3	4	CCONJ	ADV	en	en	false	within
-39	4	6	ADV	ADV	en	tr	true	boundary
-39	6	7	ADV	NOUN	tr	tr	false	boundary
-39	7	8	NOUN	NOUN	tr	tr	false	within
-39	8	9	NOUN	VERB	tr	tr	false	within
-39	9	10	VERB	DET	tr	tr	false	within
-39	10	11	DET	NOUN	tr	tr	false	within
-40	1	2	VERB	PRON	tr	tr	false	within
-40	2	3	PRON	PART	tr	tr	false	within
-41	1	2	PROPN	NOUN	tr	tr	false	within
-41	2	3	NOUN	NOUN	tr	tr	false	boundary
-41	3	4	NOUN	VERB	tr	tr	false	within
-42	1	2	ADV	VERB	tr	tr	false	within
-42	2	3	VERB	NOUN	tr	tr	false	within
-42	3	4	NOUN	PRON	tr	tr	false	boundary
-42	4	5	PRON	ADV	tr	tr	false	within
-42	5	6	ADV	ADV	tr	en	true	within
-42	6	7	ADV	ADJ	en	en	false	within
-43	1	2	VERB	PART	en	en	false	within
-43	2	3	PART	VERB	en	en	false	within
-43	3	4	VERB	ADV	en	en	false	within
-43	4	5	ADV	PRON	en	tr	true	boundary
-44	1	2	ADV	ADP	en	en	false	boundary
-44	2	3	ADP	PROPN	en	tr	true	within
-45	1	2	PRON	VERB	tr	en	true	boundary
-45	2	3	VERB	NOUN	en	en	false	within
-45	3	4	NOUN	NOUN	en	en	false	within
-45	4	5	NOUN	VERB	en	tr	true	within
-45	5	6	VERB	AUX	tr	tr	false	within
-46	1	2	PRON	DET	tr	tr	false	boundary
-46	2	3	DET	NOUN	tr	tr	false	within
-46	3	4	NOUN	DET	tr	tr	false	boundary
-46	4	5	DET	NOUN	tr	tr	false	within
-46	5	6	NOUN	VERB	tr	tr	false	within
-47	1	2	PRON	PART	en	en	false	within
-47	2	3	PART	VERB	en	en	false	within
-47	3	4	VERB	PART	en	en	false	boundary
-47	4	5	PART	PRON	en	tr	true	within
-47	5	6	PRON	VERB	tr	tr	false	within
-47	6	7	VERB	DET	tr	tr	false	boundary
-47	7	8	DET	NOUN	tr	tr	false	within
-48	1	2	ADV	ADJ	tr	tr	false	within
-48	2	3	ADJ	ADP	tr	en	true	boundary
-48	3	4	ADP	DET	en	en	false	within
-48	4	5	DET	NOUN	en	en	false	within
-49	1	2	PRON	NOUN	tr	en	true	within
-49	2	3	NOUN	VERB	en	tr	true	within
-49	3	4	VERB	ADJ	tr	tr	false	within
-49	4	5	ADJ	VERB	tr	tr	false	within
-49	5	6	VERB	NUM	tr	tr	false	within
-49	6	7	NUM	NOUN	tr	tr	false	within
-50	1	2	PRON	ADV	en	en	false	within
-50	2	3	ADV	VERB	en	en	false	within
-50	3	4	VERB	DET	en	en	false	boundary
-50	4	5	DET	NOUN	en	tr	true	within
-50	5	6	NOUN	NOUN	tr	tr	false	within
-50	6	7	NOUN	ADP	tr	en	true	boundary
-50	7	8	ADP	ADJ	en	en	false	within
-50	8	9	ADJ	NOUN	en	en	false	within
-50	9	10	NOUN	ADJ	en	en	false	within
-50	10	11	ADJ	ADP	en	en	false	boundary
-50	11	12	ADP	PRON	en	en	false	within
-50	12	13	PRON	DET	en	en	false	boundary
-50	13	14	DET	NOUN	en	tr	true	within
-50	14	15	NOUN	CCONJ	tr	en	true	boundary
-50	15	16	CCONJ	DET	en	en	false	within
-50	16	17	DET	ADJ	en	en	false	within
-50	17	18	ADJ	PROPN	en	en	false	within
-50	18	19	PROPN	NOUN	en	en	false	within
-51	1	2	PRON	VERB	en	en	false	within
-51	2	3	VERB	PRON	en	en	false	boundary
-51	3	4	PRON	NOUN	en	tr	true	within
-51	4	5	NOUN	VERB	tr	tr	false	within
-51	5	6	VERB	SCONJ	tr	en	true	boundary
-51	6	7	SCONJ	PRON	en	en	false	within
-51	7	8	PRON	AUX	en	en	false	within
-51	8	9	AUX	VERB	en	en	false	within
-51	9	10	VERB	PROPN	en	tr	true	within
+sent_id	tok_i_id	tok_j_id	upos_i	upos_j	deprel_i	deprel_j	lang_i	lang_j	switch	relation
+1	1	2	NOUN	NOUN	nmod	obj	tr	tr	false	within
+1	2	3	NOUN	NOUN	obj	compound	tr	en	true	within
+1	3	4	NOUN	VERB	compound	nsubj	en	tr	true	within
+1	4	5	VERB	ADJ	nsubj	root	tr	tr	false	within
+1	5	6	ADJ	AUX	root	aux	tr	tr	false	within
+2	1	2	PRON	VERB	obj	nsubj	tr	tr	false	within
+2	2	3	VERB	NOUN	nsubj	root	tr	tr	false	within
+2	3	4	NOUN	SCONJ	root	mark	tr	tr	false	boundary
+2	4	5	SCONJ	ADV	mark	advmod	tr	en	true	within
+2	5	6	ADV	DET	advmod	det	en	en	false	boundary
+2	6	7	DET	NOUN	det	nmod	en	tr	true	within
+2	7	8	NOUN	NOUN	nmod	obl	tr	tr	false	within
+2	8	9	NOUN	NOUN	obl	compound	tr	tr	false	within
+2	9	10	NOUN	VERB	compound	acl	tr	tr	false	within
+2	10	11	VERB	DET	acl	det	tr	tr	false	within
+2	11	12	DET	NOUN	det	conj	tr	tr	false	within
+3	1	2	PRON	ADP	advcl	case	tr	tr	false	within
+3	2	3	ADP	DET	case	det	tr	tr	false	boundary
+3	3	4	DET	NOUN	det	compound	tr	tr	false	within
+3	4	5	NOUN	VERB	compound	root	tr	tr	false	within
+4	1	2	ADV	VERB	xcomp	root	tr	tr	false	within
+4	2	3	VERB	PRON	root	obl	tr	tr	false	within
+5	1	2	ADV	VERB	advmod	root	tr	tr	false	within
+5	2	3	VERB	NOUN	root	nsubj	tr	tr	false	within
+6	1	2	PRON	CCONJ	obl	advmod	tr	tr	false	within
+6	2	3	CCONJ	ADP	advmod	compound	tr	en	true	boundary
+6	3	4	ADP	DET	compound	det	en	en	false	within
+6	4	5	DET	ADJ	det	amod	en	en	false	within
+6	5	6	ADJ	NOUN	amod	compound	en	en	false	within
+6	6	7	NOUN	VERB	compound	root	en	tr	true	within
+6	7	8	VERB	CCONJ	root	discourse	tr	tr	false	within
+7	1	2	NOUN	VERB	obl	advcl	tr	tr	false	within
+7	2	3	VERB	DET	advcl	det	tr	tr	false	boundary
+7	3	4	DET	PROPN	det	obl	tr	tr	false	within
+7	4	5	PROPN	VERB	obl	root	tr	tr	false	within
+7	5	7	VERB	VERB	root	parataxis	tr	tr	false	within
+8	1	2	DET	NOUN	det	obj	tr	tr	false	within
+8	2	3	NOUN	VERB	obj	root	tr	tr	false	within
+8	3	4	VERB	PRON	root	discourse	tr	tr	false	boundary
+8	4	5	PRON	PRON	discourse	nsubj	tr	en	true	within
+8	5	6	PRON	AUX	nsubj	aux	en	en	false	within
+8	6	7	AUX	VERB	aux	parataxis	en	en	false	within
+8	7	8	VERB	PRON	parataxis	obj	en	en	false	within
+9	1	2	PRON	CCONJ	discourse	advmod	tr	tr	false	within
+9	2	3	CCONJ	NOUN	advmod	nsubj	tr	tr	false	boundary
+9	3	4	NOUN	ADV	nsubj	advmod	tr	en	true	within
+9	4	5	ADV	ADJ	advmod	root	en	en	false	within
+9	5	6	ADJ	AUX	root	aux	en	tr	true	within
+9	6	7	AUX	AUX	aux	aux	tr	tr	false	within
+10	1	2	PROPN	PROPN	nsubj	flat	tr	tr	false	within
+10	2	3	PROPN	VERB	flat	advcl	tr	tr	false	boundary
+10	3	4	VERB	PRON	advcl	nsubj	tr	en	true	within
+10	4	5	PRON	AUX	nsubj	aux	en	en	false	within
+10	5	6	AUX	VERB	aux	root	en	en	false	within
+10	6	7	VERB	CCONJ	root	discourse	en	tr	true	within
+11	1	2	ADV	ADJ	advmod	amod	tr	tr	false	within
+11	2	3	ADJ	VERB	amod	nmod	tr	tr	false	within
+11	3	4	VERB	NOUN	nmod	nsubj	tr	tr	false	within
+11	4	5	NOUN	PRON	nsubj	obj	tr	tr	false	within
+11	5	6	PRON	VERB	obj	root	tr	tr	false	within
+12	1	2	PRON	VERB	nsubj	root	en	en	false	within
+12	2	3	VERB	CCONJ	root	cc	en	en	false	boundary
+12	3	4	CCONJ	VERB	cc	conj	en	en	false	within
+12	4	5	VERB	PRON	conj	obj	en	en	false	within
+12	5	6	PRON	ADP	obj	case	en	en	false	boundary
+12	6	7	ADP	DET	case	det	en	en	false	within
+12	7	8	DET	ADV	det	advmod	en	tr	true	boundary
+12	8	9	ADV	VERB	advmod	obj	tr	tr	false	within
+12	9	10	VERB	VERB	obj	amod	tr	tr	false	within
+12	10	11	VERB	ADV	amod	advmod	tr	en	true	within
+12	11	12	ADV	NOUN	advmod	obl	en	en	false	within
+13	1	2	NOUN	NOUN	compound	obj	en	tr	true	within
+13	2	3	NOUN	NOUN	obj	compound	tr	tr	false	within
+13	3	4	NOUN	VERB	compound	root	tr	tr	false	within
+14	1	2	CCONJ	ADV	discourse	advmod	tr	tr	false	boundary
+14	2	3	ADV	ADJ	advmod	amod	tr	tr	false	within
+14	3	4	ADJ	CCONJ	amod	cc	tr	tr	false	within
+14	4	5	CCONJ	ADJ	cc	conj	tr	tr	false	within
+14	5	6	ADJ	PRON	conj	root	tr	tr	false	boundary
+14	6	7	PRON	ADV	root	advmod	tr	en	true	boundary
+14	7	8	ADV	ADJ	advmod	parataxis	en	en	false	within
+14	8	9	ADJ	CCONJ	parataxis	cc	en	en	false	boundary
+14	9	10	CCONJ	ADJ	cc	conj	en	en	false	within
+15	1	2	DET	NOUN	det	obj	en	tr	true	within
+15	2	3	NOUN	VERB	obj	root	tr	tr	false	within
+16	1	2	NOUN	VERB	obj	root	tr	tr	false	within
+16	2	4	VERB	CCONJ	root	cc	tr	tr	false	boundary
+16	4	5	CCONJ	ADV	cc	advmod	tr	tr	false	within
+16	5	6	ADV	ADJ	advmod	conj	tr	en	true	within
+17	1	2	ADJ	DET	amod	det	en	tr	true	within
+17	2	3	DET	NOUN	det	nsubj	tr	en	true	within
+17	3	4	NOUN	ADJ	nsubj	root	en	tr	true	within
+17	4	5	ADJ	ADV	root	advmod	tr	tr	false	within
+18	1	3	VERB	DET	root	det	en	tr	true	boundary
+18	3	4	DET	NOUN	det	parataxis	tr	tr	false	within
+19	1	2	DET	ADP	advmod	fixed	en	en	false	within
+19	2	3	ADP	DET	fixed	fixed	en	en	false	within
+19	3	4	DET	ADJ	fixed	fixed	en	en	false	within
+19	4	5	ADJ	NOUN	fixed	obl	en	tr	true	boundary
+19	5	6	NOUN	NOUN	obl	compound	tr	tr	false	within
+19	6	7	NOUN	VERB	compound	root	tr	tr	false	within
+20	1	2	VERB	ADP	root	case	en	en	false	boundary
+20	2	3	ADP	PRON	case	obl	en	en	false	within
+20	3	4	PRON	DET	obl	det	en	tr	true	boundary
+20	4	5	DET	NOUN	det	discourse	tr	tr	false	within
+21	1	3	NOUN	PRON	discourse	nsubj	en	en	false	within
+21	3	4	PRON	VERB	nsubj	root	en	en	false	within
+21	4	5	VERB	ADV	root	advmod	en	tr	true	boundary
+21	5	6	ADV	ADJ	advmod	amod	tr	tr	false	within
+21	6	7	ADJ	DET	amod	det	tr	tr	false	within
+21	7	8	DET	NOUN	det	nsubj	tr	tr	false	within
+21	8	9	NOUN	VERB	nsubj	ccomp	tr	tr	false	within
+22	1	3	NOUN	NOUN	discourse	obl	tr	tr	false	within
+22	3	4	NOUN	VERB	obl	root	tr	tr	false	within
+22	4	6	VERB	PRON	root	nsubj	tr	en	true	boundary
+22	6	7	PRON	VERB	nsubj	parataxis	en	en	false	within
+22	7	8	VERB	ADJ	parataxis	discourse	en	en	false	within
+23	1	2	PRON	ADV	nsubj	advmod	tr	tr	false	within
+23	2	3	ADV	ADJ	advmod	root	tr	en	true	within
+23	3	4	ADJ	AUX	root	aux	en	tr	true	within
+23	4	5	AUX	CCONJ	aux	discourse	tr	tr	false	within
+24	1	2	VERB	SCONJ	root	mark	en	en	false	boundary
+24	2	3	SCONJ	DET	mark	det	en	tr	true	boundary
+24	3	4	DET	NOUN	det	obl	tr	tr	false	within
+24	4	5	NOUN	PRON	obl	obl	tr	tr	false	within
+24	5	6	PRON	VERB	obl	ccomp	tr	tr	false	within
+25	1	2	PRON	NOUN	nsubj	obj	tr	tr	false	boundary
+25	2	3	NOUN	NUM	obj	nummod	tr	tr	false	boundary
+25	3	4	NUM	NOUN	nummod	obl	tr	tr	false	within
+25	4	5	NOUN	NOUN	obl	compound	tr	en	true	within
+25	5	6	NOUN	VERB	compound	xcomp	en	tr	true	within
+25	6	7	VERB	VERB	xcomp	advcl	tr	tr	false	within
+25	7	8	VERB	DET	advcl	det	tr	en	true	boundary
+25	8	9	DET	NOUN	det	nsubj	en	en	false	within
+25	9	10	NOUN	VERB	nsubj	root	en	en	false	within
+25	10	11	VERB	VERB	root	xcomp	en	en	false	within
+26	1	3	VERB	VERB	root	conj	tr	tr	false	within
+27	1	2	VERB	NOUN	discourse	compound	tr	en	true	within
+27	2	3	NOUN	VERB	compound	root	en	tr	true	within
+28	1	2	PRON	ADJ	nsubj	root	en	en	false	within
+28	2	4	ADJ	ADV	root	advmod	en	tr	true	boundary
+28	4	5	ADV	ADV	advmod	advmod	tr	tr	false	within
+28	5	6	ADV	VERB	advmod	parataxis	tr	tr	false	within
+29	1	2	ADV	ADV	advmod	advmod	en	tr	true	within
+29	2	3	ADV	VERB	advmod	root	tr	tr	false	within
+30	1	2	ADP	NOUN	discourse	fixed	en	en	false	within
+30	2	3	NOUN	NOUN	fixed	obl	en	tr	true	boundary
+30	3	4	NOUN	VERB	obl	root	tr	tr	false	within
+30	4	6	VERB	VERB	root	parataxis	tr	tr	false	within
+30	6	7	VERB	AUX	parataxis	aux	tr	tr	false	within
+30	7	8	AUX	PART	aux	discourse	tr	tr	false	within
+30	8	9	PART	PRON	discourse	nmod	tr	tr	false	boundary
+30	9	10	PRON	ADP	nmod	case	tr	tr	false	within
+30	10	11	ADP	NOUN	case	obj	tr	tr	false	boundary
+31	1	2	NOUN	ADV	nmod	advmod	tr	tr	false	boundary
+31	2	3	ADV	ADJ	advmod	amod	tr	tr	false	within
+31	3	4	ADJ	NOUN	amod	compound	tr	en	true	within
+31	4	5	NOUN	NOUN	compound	obl	en	tr	true	within
+31	5	6	NOUN	ADJ	obl	root	tr	tr	false	within
+31	6	7	ADJ	ADJ	root	fixed	tr	tr	false	within
+31	7	9	ADJ	NOUN	fixed	nsubj	tr	en	true	boundary
+31	9	10	NOUN	VERB	nsubj	parataxis	en	en	false	within
+31	10	11	VERB	NOUN	parataxis	obj	en	en	false	within
+32	1	2	NOUN	ADV	nsubj	advmod	en	en	false	within
+32	2	3	ADV	VERB	advmod	root	en	tr	true	within
+32	3	4	VERB	SCONJ	root	mark	tr	tr	false	boundary
+32	4	5	SCONJ	VERB	mark	obj	tr	tr	false	within
+32	5	6	VERB	VERB	obj	ccomp	tr	tr	false	within
+33	1	2	PROPN	PRON	nsubj	obj	tr	tr	false	within
+33	2	3	PRON	PRON	obj	obj	tr	tr	false	boundary
+33	3	4	PRON	NOUN	obj	compound	tr	en	true	within
+33	4	5	NOUN	VERB	compound	advcl	en	tr	true	within
+33	5	6	VERB	SCONJ	advcl	mark	tr	tr	false	within
+33	6	7	SCONJ	AUX	mark	aux	tr	tr	false	boundary
+33	7	8	AUX	VERB	aux	root	tr	tr	false	within
+34	1	2	ADJ	NOUN	amod	obl	tr	tr	false	within
+34	2	3	NOUN	NOUN	obl	compound	tr	en	true	within
+34	3	4	NOUN	NOUN	compound	compound	en	en	false	within
+34	4	5	NOUN	VERB	compound	root	en	tr	true	within
+35	1	2	NOUN	ADV	discourse	advmod	tr	en	true	within
+35	2	3	ADV	PRON	advmod	root	en	tr	true	within
+35	3	4	PRON	PROPN	root	nsubj	tr	tr	false	within
+36	1	2	NOUN	ADV	nsubj	advmod	tr	tr	false	boundary
+36	2	3	ADV	ADJ	advmod	amod	tr	en	true	within
+36	3	4	ADJ	NOUN	amod	obj	en	tr	true	within
+36	4	5	NOUN	VERB	obj	xcomp	tr	tr	false	within
+36	5	6	VERB	VERB	xcomp	ccomp	tr	tr	false	within
+36	6	7	VERB	SCONJ	ccomp	mark	tr	tr	false	within
+36	7	8	SCONJ	VERB	mark	root	tr	tr	false	boundary
+37	1	2	NOUN	NOUN	obl	compound	tr	tr	false	boundary
+37	2	3	NOUN	VERB	compound	advcl	tr	tr	false	within
+37	3	4	VERB	VERB	advcl	acl	tr	tr	false	within
+37	4	5	VERB	NUM	acl	nummod	tr	tr	false	boundary
+37	5	6	NUM	NOUN	nummod	amod	tr	tr	false	within
+37	6	7	NOUN	PROPN	amod	nmod	tr	tr	false	within
+37	7	8	PROPN	PROPN	nmod	flat	tr	tr	false	within
+37	8	9	PROPN	NOUN	flat	root	tr	tr	false	boundary
+38	1	2	NOUN	ADJ	compound	amod	tr	en	true	boundary
+38	2	3	ADJ	DET	amod	det	en	tr	true	within
+38	3	4	DET	NOUN	det	nsubj	tr	tr	false	within
+38	4	5	NOUN	VERB	nsubj	root	tr	tr	false	within
+39	1	3	ADV	CCONJ	advmod	discourse	tr	en	true	within
+39	3	4	CCONJ	ADV	discourse	advmod	en	en	false	within
+39	4	6	ADV	ADV	advmod	advmod	en	tr	true	boundary
+39	6	7	ADV	NOUN	advmod	nmod	tr	tr	false	boundary
+39	7	8	NOUN	NOUN	nmod	obl	tr	tr	false	within
+39	8	9	NOUN	VERB	obl	acl	tr	tr	false	within
+39	9	10	VERB	DET	acl	det	tr	tr	false	within
+39	10	11	DET	NOUN	det	root	tr	tr	false	within
+40	1	2	VERB	PRON	root	nsubj	tr	tr	false	within
+40	2	3	PRON	PART	nsubj	discourse	tr	tr	false	within
+41	1	2	PROPN	NOUN	nmod	flat	tr	tr	false	within
+41	2	3	NOUN	NOUN	flat	obj	tr	tr	false	boundary
+41	3	4	NOUN	VERB	obj	root	tr	tr	false	within
+42	1	2	ADV	VERB	advmod	advcl	tr	tr	false	within
+42	2	3	VERB	NOUN	advcl	obl	tr	tr	false	within
+42	3	4	NOUN	PRON	obl	nsubj	tr	tr	false	boundary
+42	4	5	PRON	ADV	nsubj	advmod	tr	tr	false	within
+42	5	6	ADV	ADV	advmod	advmod	tr	en	true	within
+42	6	7	ADV	ADJ	advmod	root	en	en	false	within
+43	1	2	VERB	PART	root	advmod	en	en	false	within
+43	2	3	PART	VERB	advmod	xcomp	en	en	false	within
+43	3	4	VERB	ADV	xcomp	advmod	en	en	false	within
+43	4	5	ADV	PRON	advmod	discourse	en	tr	true	boundary
+44	1	2	ADV	ADP	root	case	en	en	false	boundary
+44	2	3	ADP	PROPN	case	obl	en	tr	true	within
+45	1	2	PRON	VERB	obl	nmod	tr	en	true	boundary
+45	2	3	VERB	NOUN	nmod	obj	en	en	false	within
+45	3	4	NOUN	NOUN	obj	compound	en	en	false	within
+45	4	5	NOUN	VERB	compound	root	en	tr	true	within
+45	5	6	VERB	AUX	root	aux	tr	tr	false	within
+46	1	2	PRON	DET	nsubj	det	tr	tr	false	boundary
+46	2	3	DET	NOUN	det	obj	tr	tr	false	within
+46	3	4	NOUN	DET	obj	det	tr	tr	false	boundary
+46	4	5	DET	NOUN	det	obl	tr	tr	false	within
+46	5	6	NOUN	VERB	obl	root	tr	tr	false	within
+47	1	2	PRON	PART	nsubj	advmod	en	en	false	within
+47	2	3	PART	VERB	advmod	root	en	en	false	within
+47	3	4	VERB	PART	root	mark	en	en	false	boundary
+47	4	5	PART	PRON	mark	obj	en	tr	true	within
+47	5	6	PRON	VERB	obj	xcomp	tr	tr	false	within
+47	6	7	VERB	DET	xcomp	det	tr	tr	false	boundary
+47	7	8	DET	NOUN	det	discourse	tr	tr	false	within
+48	1	2	ADV	ADJ	advmod	root	tr	tr	false	within
+48	2	3	ADJ	ADP	root	case	tr	en	true	boundary
+48	3	4	ADP	DET	case	det	en	en	false	within
+48	4	5	DET	NOUN	det	obl	en	en	false	within
+49	1	2	PRON	NOUN	nsubj	compound	tr	en	true	within
+49	2	3	NOUN	VERB	compound	obl	en	tr	true	within
+49	3	4	VERB	ADJ	obl	compound	tr	tr	false	within
+49	4	5	ADJ	VERB	compound	acl	tr	tr	false	within
+49	5	6	VERB	NUM	acl	nummod	tr	tr	false	within
+49	6	7	NUM	NOUN	nummod	root	tr	tr	false	within
+50	1	2	PRON	ADV	nsubj	advmod	en	en	false	within
+50	2	3	ADV	VERB	advmod	root	en	en	false	within
+50	3	4	VERB	DET	root	det	en	en	false	boundary
+50	4	5	DET	NOUN	det	compound	en	tr	true	within
+50	5	6	NOUN	NOUN	compound	obj	tr	tr	false	within
+50	6	7	NOUN	ADP	obj	case	tr	en	true	boundary
+50	7	8	ADP	ADJ	case	amod	en	en	false	within
+50	8	9	ADJ	NOUN	amod	nmod	en	en	false	within
+50	9	10	NOUN	ADJ	nmod	advmod	en	en	false	within
+50	10	11	ADJ	ADP	advmod	case	en	en	false	boundary
+50	11	12	ADP	PRON	case	obl	en	en	false	within
+50	12	13	PRON	DET	obl	det	en	en	false	boundary
+50	13	14	DET	NOUN	det	obj	en	tr	true	within
+50	14	15	NOUN	CCONJ	obj	cc	tr	en	true	boundary
+50	15	16	CCONJ	DET	cc	det	en	en	false	within
+50	16	17	DET	ADJ	det	amod	en	en	false	within
+50	17	18	ADJ	PROPN	amod	compound	en	en	false	within
+50	18	19	PROPN	NOUN	compound	conj	en	en	false	within
+51	1	2	PRON	VERB	nsubj	root	en	en	false	within
+51	2	3	VERB	PRON	root	nsubj	en	en	false	boundary
+51	3	4	PRON	NOUN	nsubj	obl	en	tr	true	within
+51	4	5	NOUN	VERB	obl	ccomp	tr	tr	false	within
+51	5	6	VERB	SCONJ	ccomp	mark	tr	en	true	boundary
+51	6	7	SCONJ	PRON	mark	nsubj	en	en	false	within
+51	7	8	PRON	AUX	nsubj	aux	en	en	false	within
+51	8	9	AUX	VERB	aux	advcl	en	en	false	within
+51	9	10	VERB	PROPN	advcl	obj	en	tr	true	within

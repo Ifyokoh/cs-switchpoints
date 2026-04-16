@@ -5,6 +5,8 @@ summary of counts and data issues for one dataset
   Sentences      : 1,448
   Tokens (raw)   : 20,203
   Tokens (kept)  : 16,632
+    => en        : 8,269  (49.7 %)
+    => hi        : 8,363  (50.3 %)
   Missing HEAD   : 0 sentences
   Missing lang   : 0 tokens
   Monolingual sentences: none
@@ -14,6 +16,8 @@ summary of counts and data issues for one dataset
   Sentences      : 97
   Tokens (raw)   : 456
   Tokens (kept)  : 371
+    => en        : 120  (32.3 %)
+    => te        : 249  (67.1 %)
   Missing HEAD   : 0 sentences
   Missing lang   : 2 tokens
   Monolingual sentences by language:
@@ -24,6 +28,8 @@ summary of counts and data issues for one dataset
   Sentences      : 51
   Tokens (raw)   : 393
   Tokens (kept)  : 331
+    => en        : 118  (35.6 %)
+    => tr        : 213  (64.4 %)
   Missing HEAD   : 0 sentences
   Missing lang   : 62 tokens
   Monolingual sentences by language:
