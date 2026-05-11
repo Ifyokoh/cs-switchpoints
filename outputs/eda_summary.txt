@@ -1,0 +1,94 @@
+EDA Summary
+============================================================
+
+=== Section 1: Sentence length ===
+
+  [Hindi–English]
+  Sentences                     : 1,448
+  Min length (pairs)            : 3
+  Max length (pairs)            : 22
+  Mean length (pairs)           : 10.5
+  Median length (pairs)         : 10.0
+  Sentences with 0 switches     : 0
+  Mean switch rate/sentence     : 0.252
+  Corr(length, switch rate)     : -0.382
+
+  [Telugu–English]
+  Sentences                     : 97
+  Min length (pairs)            : 1
+  Max length (pairs)            : 6
+  Mean length (pairs)           : 2.8
+  Median length (pairs)         : 3.0
+  Sentences with 0 switches     : 1
+  Mean switch rate/sentence     : 0.669
+  Corr(length, switch rate)     : -0.546
+
+  [Turkish–English]
+  Sentences                     : 51
+  Min length (pairs)            : 1
+  Max length (pairs)            : 18
+  Mean length (pairs)           : 5.5
+  Median length (pairs)         : 5.0
+  Sentences with 0 switches     : 10
+  Mean switch rate/sentence     : 0.266
+  Corr(length, switch rate)     : -0.195
+
+=== Section 2: Within/boundary split by switch status ===
+  Hindi–English — Switch (n=3,488): within=55.8%  boundary=44.2%
+  Hindi–English — Same-lang (n=11,696): within=74.6%  boundary=25.4%
+  Telugu–English — Switch (n=172): within=96.5%  boundary=3.5%
+  Telugu–English — Same-lang (n=98): within=77.6%  boundary=22.4%
+  Turkish–English — Switch (n=68): within=69.1%  boundary=30.9%
+  Turkish–English — Same-lang (n=212): within=81.1%  boundary=18.9%
+
+=== Section 3: POS pairs at switch points ===
+
+  [Hindi–English] — total switch pairs: 3,488
+  Top 5 POS pairs:
+    NOUN → ADP: 392
+    NOUN → VERB: 344
+    ADP → NOUN: 257
+    NOUN → PART: 127
+    VERB → NOUN: 121
+
+  [Telugu–English] — total switch pairs: 172
+  Top 5 POS pairs:
+    NOUN → VERB: 61
+    PRON → NOUN: 36
+    DET → NOUN: 15
+    NOUN → NOUN: 9
+    NOUN → ADV: 5
+
+  [Turkish–English] — total switch pairs: 68
+  Top 5 POS pairs:
+    NOUN → VERB: 8
+    NOUN → NOUN: 6
+    DET → NOUN: 5
+    ADJ → NOUN: 4
+    PRON → NOUN: 3
+
+=== Section 4: Dependency roles at switch points ===
+
+  [Hindi–English] — total switch pairs (relation known): 3,488
+  Top 5 deprel_i at switch points:
+    case: total=412  within=46  boundary=366
+    nmod: total=384  within=295  boundary=89
+    nsubj: total=289  within=236  boundary=53
+    root: total=288  within=103  boundary=185
+    obj: total=276  within=183  boundary=93
+
+  [Telugu–English] — total switch pairs (relation known): 172
+  Top 5 deprel_i at switch points:
+    obj: total=47  within=47  boundary=0
+    nsubj: total=42  within=39  boundary=3
+    nmod: total=21  within=21  boundary=0
+    det: total=17  within=17  boundary=0
+    root: total=14  within=14  boundary=0
+
+  [Turkish–English] — total switch pairs (relation known): 68
+  Top 5 deprel_i at switch points:
+    advmod: total=11  within=8  boundary=3
+    compound: total=11  within=10  boundary=1
+    root: total=9  within=3  boundary=6
+    det: total=6  within=5  boundary=1
+    amod: total=5  within=5  boundary=0

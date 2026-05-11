@@ -1,0 +1,42 @@
+Mixed-Effects Logistic Regression Results
+============================================================
+
+Model: switch ~ relation + (1 | sent_id)
+
+How to read the table:
+  Odds Ratio : how much more likely a switch is at a boundary
+               than within a constituent.
+               > 1  boundary pairs switch more often
+               = 1  no difference
+               < 1  boundary pairs switch less often
+  95% CI     : confidence interval. If it does not include 1,
+               the result is significant at p < 0.05.
+  z-value    : test statistic. Larger absolute value = stronger
+               evidence against the null (no effect).
+  p-value    : probability of this result by chance if there is
+               truly no effect. < 0.05 = conventionally significant.
+  Singular   : YES means the sentence random effect collapsed to
+               zero. The model ran but results are unreliable;
+               treat as exploratory only.
+------------------------------------------------------------
+
+=== Hindi–English ===
+  Pairs: 15184   Sentences: 1448   Singular: No
+  Predictor                       Odds Ratio          95% CI   z-value  p-value
+  ------------------------------------------------------------------------
+  Intercept (baseline log-odds)        0.215  [0.203, 0.227]    -53.91  0
+  relation = boundary (vs within)       2.433  [2.245, 2.637]     21.69  2.77e-104
+
+=== Telugu–English ===
+  Pairs: 270   Sentences: 97   Singular: YES — treat with caution
+  Predictor                       Odds Ratio          95% CI   z-value  p-value
+  ------------------------------------------------------------------------
+  Intercept (baseline log-odds)        2.184  [1.665, 2.865]      5.64  1.692e-08
+  relation = boundary (vs within)       0.125  [0.049, 0.320]     -4.33  1.519e-05
+
+=== Turkish–English ===
+  Pairs: 280   Sentences: 51   Singular: YES — treat with caution
+  Predictor                       Odds Ratio          95% CI   z-value  p-value
+  ------------------------------------------------------------------------
+  Intercept (baseline log-odds)        0.273  [0.198, 0.377]     -7.88  3.217e-15
+  relation = boundary (vs within)       1.921  [1.035, 3.568]      2.07  0.03865
